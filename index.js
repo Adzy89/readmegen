@@ -61,27 +61,23 @@ const questions = [
     },
   ]
 
-  function writeToFile(fileName, data) {
+const writeToFile = async (fileName, data) => {
+    try {
+        await fs.promises.writeFile(fileName, data);
+        console.log(`Successfully written to ${fileName}`);
+    } catch (error) {
+        console.error(`Error writing to ${fileName}`, error);
+    }
+};
 
-    fs.writeFile(fileName, data, function(err) {
-        console.log(fileName)
-        console.log(data)
-        if (err) {
-            return console.log(err)
-        } else {
-            console.log("success")
-        }
-    })
+const init = async () => {
+  try {
+      const data = await inquirer.prompt(questions);
+      await writeToFile("README.md", generatorMarkdown(data));
+      console.log("Successfully created README.md file");
+  } catch (error) {
+      console.error("Error: ", error);
   }
-
-  function init() {
-    inquirer.prompt(questions)
-        .then(function(data) {
-            writeToFile("README.md", generatorMarkdown(data));
-            console.log(data)
-
-        })
-
-}
+};
 
 init();
