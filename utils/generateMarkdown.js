@@ -71,16 +71,22 @@ function generateMarkdown(data) {
   
   ## Installation
   ${data.Installation} 
+
   ## Usage
   ${data.Usage}
+
   ## License
   ${data.License} 
+
   ## Contribution
   ${data.Contribution}
+
   ## Test
   ${data.Test}
+
   ## Questions
   ${data.Questions}
+  
   If you have any questions please email me here => adam_pilato@hotmail.com
 
   gihub: Adzy89
