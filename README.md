@@ -1,6 +1,6 @@
-# g
+# Read me generator
   ## Description
-  g
+  this weeks challenge was a reade me generator, designed to make read me's for developers
   ## Table of Contents 
   * [Installation](#installation)
   * [Usage](#usage)
@@ -11,16 +11,16 @@
   
   
   ## Installation
-  g 
+  no install needed 
   ## Usage
-  g
+  simply right click the index.js file select intergraterd terminal type node index.js => enter and follow the prompts
   ## License
-  g 
+  MIT 
   ## Contribution
-  g
+  no
   ## Test
-  g
+  yes 
   ## Questions
-  g
+  no
   
   

@@ -81,7 +81,10 @@ function generateMarkdown(data) {
   ${data.Test}
   ## Questions
   ${data.Questions}
-  
+  If you have any questions please email me here => adam_pilato@hotmail.com
+
+  gihub: Adzy89
+
   `
   };
 
