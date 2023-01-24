@@ -11,7 +11,7 @@
   
   
   ## Installation
-  no install needed 
+  inquirer@8.2.4
   ## Usage
   simply right click the index.js file select intergraterd terminal type node index.js => enter and follow the prompts
 
