@@ -15,7 +15,7 @@
   ## Usage
   simply right click the index.js file select intergraterd terminal type node index.js => enter and follow the prompts
 
-  [![Watch the walkthrough](https://watch.screencastify.com/v/O9ucYvrU8EbLnudmVCT2)
+  [![Watch the walkthrough](https://watch.screencastify.com/v/O9ucYvrU8EbLnudmVCT2)]
 
   ## License
   MIT 
